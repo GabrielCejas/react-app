@@ -17,7 +17,7 @@ code {
 
 .main-layout {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100vh;
 }
 
@@ -51,4 +51,11 @@ nav li a {
 .nav-active {
   color: grey;
   transition: all .3s ease-out;
+}
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  margin-top: 25vh;
 }
